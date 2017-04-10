@@ -5,8 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-theme: jekyll-theme-midnight
-
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
@@ -21,3 +19,4 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-midnight
