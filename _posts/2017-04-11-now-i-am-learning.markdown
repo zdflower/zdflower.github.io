@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Now I am learning..."
-date:   2017-01-07 20:00:47 -0500
+date:   2017-04-11
 ---
 Couldn't think of a better title yet. Just want to write something, later, someday I'll make it better.
 Now I am learning:
