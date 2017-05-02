@@ -15,8 +15,7 @@ date:   2017-05-02
 
 **What I wrote**: 
 
-```
-javascript
+```javascript
 $('#lupa').on('click', function buscar(){
 	var aBuscar = $('#buscadorInput').val();
 	console.log("Quiere buscar: " + aBuscar);
