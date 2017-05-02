@@ -15,7 +15,7 @@ date:   2017-05-02
 
 **What I wrote**: 
 
-'''
+```
 javascript
 $('#lupa').on('click', function buscar(){
 	var aBuscar = $('#buscadorInput').val();
@@ -49,7 +49,7 @@ $('#buscadorInput').on('keyup', function buscar(event){
 			console.log("no apretó enter");
 		}
 });
-'''
+```
 
 **What I got**: if you type something in the text box and press enter (the first time, before you try clicking the icon once) it's as if you reset the page, the text you just typed disapears, it is as if you reload the page. But if you write something in the box and then click, it works, and then you write something elsee and press enter, that also works. So, it works but not if what you do first is press the enter key after typing in the box.
 
