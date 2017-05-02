@@ -15,8 +15,8 @@ date:   2017-05-02
 
 **What I wrote**: 
 
-'''javascript
-//manejador del evento del click sobre el ícono de la lupa
+'''
+javascript
 $('#lupa').on('click', function buscar(){
 	var aBuscar = $('#buscadorInput').val();
 	console.log("Quiere buscar: " + aBuscar);
@@ -33,7 +33,7 @@ $('#lupa').on('click', function buscar(){
 		$('#resultados').css("color", "white");
 	});
 });
-//manejador del evento de la tecla enter
+
 $('#buscadorInput').on('keyup', function buscar(event){
 		var aBuscar = $('#buscadorInput').val();
 		console.log("Quiere buscar: " + aBuscar);
