@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finish a functional version of the Wikipedia viewer project"
+title:  "Finished a functional version of the Wikipedia viewer project"
 date:   2017-05-04
 ---
 
