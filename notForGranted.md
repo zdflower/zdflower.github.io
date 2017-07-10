@@ -5,7 +5,7 @@ date:   2017-05-04
 ---
 These days I'm thinking about so many things people, me, take for granted. Like breathing without assistance, walking on our own, eating without help, getting dressed by oneselves, seeing the faces of loving ones, being capable of learning, enjoy the life we have with people we love and by whom we are loved.
 Almost everything could be beautiful, enjoyable. I am greatful for all the opportunities I had, for everything, for this very moment.
-I just wanted to write this down so I can remind myself everyday of all those wonderful things that are in our lifes and pass inadverted, anawared, taken for granted.
+I just wanted to write this down so I can remind myself everyday of all those wonderful things that are in our lives and pass inadverted, anawared, taken for granted.
 Those are things to enjoy and care, to be happy about having them. Those are the things and the people we most long when are gone, not tvs, phones, etc. Those essential people and things we need like air and almost always we take for granted.
 A peaceful afternoon, your mother, father, a caring relative waiting for you at home, a home, a place where to be safe. Oh, so much, so much taken for granted.
 So the next time I find myself loosing time complaining, or feeling down for what I don't have, a material thing, instead of being happy for what I actually have, I hope that quickly remember this and change my state of mind, and do what would be needed to acquire what I want but without feeling unfortunate, unhappy for not having it yet, and instead be happy to be alive, because it is not granted.
