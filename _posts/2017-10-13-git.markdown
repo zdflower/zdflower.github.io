@@ -1,0 +1,49 @@
+---
+layout: post
+title: Git
+date: 2017-10-13
+---
+
+## Uso básico de git y github desde la línea de comandos
+
+    git init
+
+    git status
+
+    git log
+
+    git add files
+
+    git commit -m "msg"
+
+Branches, sacar algo del stage, borrar un commit, crear un repositiorio, clonar un repositorio, subir los cambios a github, hacer un fork.
+
+Si vos tenés un repositorio local y querés conectarlo con un repositorio remoto (en github, por ejemplo), tenés que crear el repositorio remoto, copiar la dirección. Y después lo tenés que conectar con el local. Entonces, dentro del directorio de tu repositorio local:
+
+    git remote add origin url
+
+Donde origin es un apodo posible para el repositorio remoto, y url es la dirección en la que está.
+
+Después de hacer modificaciones en la copia local del repositorio, add, commit, finalmente lo subimos a github:
+
+    git push origin rama
+
+Para crear una rama y pasar a trabajar en ella:
+    
+    git checkout -b nuevaRama
+
+Si después queremos trasladar los cambios realizados en una rama a la rama de trabajo principal, cambiamos a la rama principal:
+
+    git checkout ramaPrincipal
+
+ y luego:
+
+    git merge otraRama
+
+
+#### Fuentes:
+
+* [Git-it guide ](http://jlord.us/git-it/)
+* [Git cheat sheet](http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf)
+* [Git cheat sheet github education](https://education.github.com/git-cheat-sheet-education.pdf)
+* [How not to f-up your local files with Git](https://medium.com/@francesco.agnoletto/how-to-not-f-up-your-local-files-with-git-part-1-e0756c88fd3c)

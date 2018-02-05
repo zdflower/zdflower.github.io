@@ -1,0 +1,37 @@
+---
+layout: post
+title: Mongodb
+---
+Es una base de datos.
+
+Por ejemplo, puedo guardar recetas de cocina en un archivo en formato csv (en la primera fila pongo los encabezados de cada columna, los nombres de los campos), por ej. puedo usar una hoja de cálculos, y después uso desde la línea de comandos (no dentro del intérprete de mongo)
+
+    mongoimport --db recetas --collection recetas --type csv --headerline --file recetas.csv
+
+Para crear la base de datos, o indicar aquella con la que voy a trabajar (si ya existe), en el intérprete mongo:
+
+    use nombredb
+
+Para crear una colección dentro de esa base de datos:
+
+    db.createCollection('nombrecoleccion');
+
+Para mostrar las colecciones que tiene la base de datos:
+
+    show collections
+
+Para mostrar las bases de datos que tenés:
+
+    show dbs
+
+Para insertar un registro:
+
+    db.nombrecoleccion.insert({campo: contenido});
+
+Para mostrar lo que tiene la colección:
+
+    db.nombrecoleccion.find().pretty();
+
+Para eliminar entradas de una colección que contengan campo:valor :
+
+    db.nombrecoleccion.remove({campo: valor});

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Reproducción de audio desde la línea de comandos
+date: 2018-01-11
+---
+
+Con sox:
+
+    play archivo.ext
+
+Pero no puede reproducir archivos con formato opus.
+
+ffmpeg sí reproduce ese formato.
+
+Con ffmpeg:
+
+    ffplay -vn -sn -nodisp -i archivo.opus
+
+No sé si es necesario -vn y -sn, en todo caso es para excluir video y subtítulos.
