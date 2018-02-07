@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convert audio with ffmpeg on the command line
-date: 2018-01-07
+date: 2018-02-07
 ---
 
 ## ffmpeg:
