@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Voting app
+date: 2018-02-05
 ---
 
 Recently I finished a first version of a voting app for the Free Code Camp backend projects.
