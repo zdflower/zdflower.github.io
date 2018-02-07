@@ -10,11 +10,11 @@ For example, from m4a to ogg, on the command line:
 
     ffmpeg -i input.m4a -vn -sn -acodec libvorbis output.ogg 
 
-where:
--vn to exclude video
--sn to exclude subtitles
--i  to indicate the input
--acodec to say that you are going to use an audio codec
-libvorbis for ogg
+Where:
+* _-vn_ to exclude video
+* _-sn_ to exclude subtitles
+* _-i_  to indicate the input
+* _-acodec_ to say that you are going to use an audio codec
+* _libvorbis_ for ogg
 
-The order of the arguments is important.
+The __order__ of the arguments is important.
