@@ -9,9 +9,9 @@ Today I am starting the project.
 
 Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-camper-leaderboard](https://www.freecodecamp.org/challenges/build-a-camper-leaderboard)
 
-[ ] I can see a table of the freeCodeCamp campers who've earned the most brownie points in the past 30 days.
-[ ] I can see how many brownie points they've earned in the past 30 days, and how many they've earned total.
-[ ] I can toggle between sorting the list by how many brownie points they've earned in the past 30 days and by how many brownie points they've earned total.
+- [ ] I can see a table of the freeCodeCamp campers who've earned the most brownie points in the past 30 days.
+- [ ] I can see how many brownie points they've earned in the past 30 days, and how many they've earned total.
+- [ ] I can toggle between sorting the list by how many brownie points they've earned in the past 30 days and by how many brownie points they've earned total.
 
 So far I watched the video zipline, made a sketch of the layout, thinked about the components and the functionality of toggling the order of the campers by last 30 days points or by total points.
 
