@@ -48,3 +48,8 @@ Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-
 * [Organizing data with tables](http://learn.shayhowe.com/html-css/organizing-data-with-tables/)
 * [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 * [React Basics](https://www.youtube.com/watch?v=QqLkkBKVDyM)
+
+### Repo
+
+[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
+

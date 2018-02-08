@@ -37,3 +37,8 @@ Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-
 * [Sass Shop exercises](https://github.com/jewlofthelotus/SassShop-exercises)
 * [Learn Sass](https://github.com/workshopper/learn-sass)
 * [Nodeschool](https://nodeschool.io/)
+
+### Repo
+
+[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
+

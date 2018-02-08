@@ -18,3 +18,7 @@ So far I watched the video zipline, made a sketch of the layout, thinked about t
 I am thinking of dividing the problem in parts and explore them one by one and then use the gained knowledge to build the final solution.
 
 For example, before getting the info from the apis in the page, I downloaded the data and will leave dealing with the apis for another time and will focus first on how to toggle between the different orders of the lists.
+
+### Repo
+
+[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
