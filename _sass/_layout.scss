@@ -6,7 +6,7 @@ $rosaChicle: #FF7D9B;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    background-color: $rosaChicle;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -101,6 +101,7 @@ $rosaChicle: #FF7D9B;
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $rosaChicle;
 }
 
 .footer-heading {
@@ -193,6 +194,7 @@ $rosaChicle: #FF7D9B;
 .post-link {
     display: block;
     font-size: 24px;
+    color: $rosaChicle;
 }
 
 
@@ -208,6 +210,7 @@ $rosaChicle: #FF7D9B;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $rosaChicle;
 
     @include media-query($on-laptop) {
         font-size: 36px;
