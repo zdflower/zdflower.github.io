@@ -4,6 +4,12 @@ title: Leaderboard FreeCodeCamp project diary (continued - Part 3)
 date: 2018-02-08
 ---
 
+### Repo and website
+
+[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
+
+[LeaderboardFCC](https://codepen.io/zdflower/pen/vdyjXb)
+
 ## React
 
 ### Fixing bugs
@@ -44,7 +50,7 @@ https://fcctop100.herokuapp.com/api/fccusers/top/alltime
 
 It needs to be improved.
 
-### User stories
+## User stories
 
 Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-camper-leaderboard](https://www.freecodecamp.org/challenges/build-a-camper-leaderboard)
 
@@ -62,8 +68,4 @@ Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-
 * [Sass Shop exercises](https://github.com/jewlofthelotus/SassShop-exercises)
 * [Learn Sass](https://github.com/workshopper/learn-sass)
 * [Nodeschool](https://nodeschool.io/)
-
-### Repo
-
-[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
 

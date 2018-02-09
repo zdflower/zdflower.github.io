@@ -4,6 +4,12 @@ title: Leaderboard FreeCodeCamp project diary (continued - Part 4)
 date: 2018-02-08
 ---
 
+### Repo and website
+
+[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
+
+[LeaderboardFCC](https://codepen.io/zdflower/pen/vdyjXb)
+
 ## Retrieving data from the api
 
 I add a property on the state of the page to store the list of campers.
@@ -30,8 +36,4 @@ Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-
 * [Learn Sass](https://github.com/workshopper/learn-sass)
 * [Nodeschool](https://nodeschool.io/)
 * [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
-
-### Repo
-
-[https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
 

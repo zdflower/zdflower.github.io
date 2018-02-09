@@ -49,7 +49,8 @@ Here are the user stories from [https://www.freecodecamp.org/challenges/build-a-
 * [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 * [React Basics](https://www.youtube.com/watch?v=QqLkkBKVDyM)
 
-### Repo
+### Repo and website
 
 [https://github.com/zdflower/leaderboardFCC](https://github.com/zdflower/leaderboardFCC)
 
+[LeaderboardFCC](https://codepen.io/zdflower/pen/vdyjXb)
