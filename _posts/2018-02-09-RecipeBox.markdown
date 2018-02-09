@@ -22,7 +22,7 @@ These are the user stories:
 * Leave local storage, style, editing and deleting a recipe for later.
 * It seems that the demo page used bootstrap.
 * I am interested in getting that effect of clicking the name of the recipe and show the ingredients.
-* Start with an existing example recipe like {name: "Cookies", ingredients: "Flour, butter, sugar, vanilla, baking powder"}.
+* Start with an existing example recipe like {name: "Cookies", ingredients: "Flour, butter, sugar, vanilla, baking powder, eggs, milk"}.
 * Divide the page into a hierarchy of components.
 
 ## Future readings
