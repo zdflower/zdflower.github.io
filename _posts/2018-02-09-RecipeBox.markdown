@@ -30,6 +30,8 @@ These are the user stories:
 * [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 * HTML5 - [Storage](https://www.html5rocks.com/en/features/storage)
 
-## Repository
+## Repository and web page
 
 [https://github.com/zdflower/recipeBoxFCC](https://github.com/zdflower/recipeBoxFCC)
+
+[https://zdflower.github.io/recipeBoxFCC/](https://zdflower.github.io/recipeBoxFCC/)
