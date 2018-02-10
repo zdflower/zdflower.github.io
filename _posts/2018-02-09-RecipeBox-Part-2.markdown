@@ -8,7 +8,7 @@ date: 2018-02-09
 
 [https://github.com/zdflower/recipeBoxFCC](https://github.com/zdflower/recipeBoxFCC)
 
-[RecipeBox](https://codepen.io/zdflower/pen/VQprgz)
+[https://zdflower.github.io/recipeBoxFCC/](https://zdflower.github.io/recipeBoxFCC/)
 
 ## What's new
 
