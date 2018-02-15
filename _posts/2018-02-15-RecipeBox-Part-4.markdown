@@ -20,7 +20,9 @@ So I decided to go back a lot and render allmost all from the Page component. Wo
 
 Learn React, be more aquainted with it. So far there is no much feeling between us, may be I had to put more of my self into this relation with React, pay more attention, try to understand more, be patient :-)
 
-Also I would like to know how to make the edition of recipes really like editing a file, where you don't have to write it all over if you want to change something.
+<del>Also I would like to know how to make the edition of recipes really like editing a file, where you don't have to write it all over if you want to change something.</del>
+
+I found out how to get the editing right: assign the name and the ingredients of the recipe to the state of the EditForm instead of using placeholder in the form.
 
 ## User stories:
 
