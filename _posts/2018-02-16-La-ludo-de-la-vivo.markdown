@@ -4,8 +4,6 @@ title: La ludo de la vivo
 date: 2018-02-16
 ---
 
-## La ludo de la vivo
-
 Estas dudimensia, rektangula tabelo dispartigita en kvadrataj ĉeloj. Ĉiu ĉelo povas esti plena aux malplena kaj havas najbaraj ĉeloj (dekstre, maldekstre, supre, malsupre, anguloj).
 
 La ludo komencas kun certa agordo kaj la postaj statoj de ĉiu ĉelo sekvas el tre simplaj reguloj:
