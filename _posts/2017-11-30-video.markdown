@@ -1,0 +1,38 @@
+---
+layout: post
+title: Edición de video desde la línea de comandos
+date: 2017-11-30
+---
+
+Convertir el formato del video
+
+    HandBrakeCLI -i VID_20171008_121539.mp4 -o ./Vídeos/VID_20171008_121539.mp4 --preset="Android"
+
+Rotar video
+
+    ffmpeg -i VID_20171008_121539.mp4 -vf transpose=clock -strict -2 rotado.mp4
+
+Cortar video
+
+    ffmpeg -ss 0 -t 18 -i rotado.mp4 -strict -2 output2.mp4
+
+Más rápido (porque no recodifica):
+
+    ffmpeg -ss 0 -t 18 -i rotado.mp4 -strict -2 -c copy output3.mp4
+
+Concatenar archivos que tienen el mismo formato (fuente: https://trac.ffmpeg.org/wiki/Concatenate):
+
+Primero hay que escribir un archivo mylist.txt con los archivos:
+
+    # videos para concatenar con ffmpeg
+    file './proyecto-video/1-43.flv'
+    file './proyecto-video/43-66.flv'
+
+y luego ejecutar:
+
+     ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.flv
+
+
+Extraer audio de un video
+
+    ffmpeg -i video.mp4 -sn -vn output.mp3
