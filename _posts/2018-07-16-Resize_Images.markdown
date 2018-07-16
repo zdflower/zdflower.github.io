@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Resize/scale images with the command line
+date: 2018-07-16
 ---
 
 Software: ImageMagick.
