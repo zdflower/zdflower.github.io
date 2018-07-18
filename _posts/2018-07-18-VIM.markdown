@@ -1,0 +1,63 @@
+---
+layout: post
+title: VIM
+date: 2018-07-18
+---
+
+# VIM
+
+Estuve experimentando con el editor de textos [VIM](http://www.vim.org/).
+
+## Comandos básicos de uso frecuente:
+- **Esc** *para ir al modo normal.*
+- **o** *para insertar una nueva línea abajo y estar en modo insertar y comenzar a escribir.*
+- **O** *para insertar una nueva línea arriba.*
+- *las teclas para moverse hacia arriba, abajo, izquierda y derecha, en modo normal:* **k, j, h, l,** *respectivamente.*
+- **w, W, e, E, b, B** *para ir de palabra en palabra.*
+- **^** para ir al comienzo de la línea
+- **a** para insertar detrás
+- **i** para insertar adelante
+- **shift + 4** (o $) para ir al final de la línea
+- **x** para borrar un carácter.
+- **d** para borrar una línea
+- **r** para reemplazar un carácter
+- **dw** para borrar una palabra
+- **yw** para copiar una palabra
+- **p** para pegar en la línea de abajo lo previamente copiado o borrado
+- **P** para pegar en la línea de arriba.
+- **dd** para borrar una línea
+- **yy** para copiar una línea
+- **ctrl+d** para ir media página hacia abajo
+- **ctrl+u** para ir media página hacia arriba.
+- **u** para deshacer un cambio
+- **:wq** para guardar el archivo y salir de vim
+- **:q!** para salir sin guardar.
+- **:w** para guardar el archivo
+- **:help** para mostrar la ayuda
+- **"+p** sirve para pegar texto del portapapeles del sistema
+- **"+y-** copia texto al portapapeles del sistema
+- **:split** parte la pantalla en dos y muestra el mismo archivo arriba y abajo.
+- **:edit** archivo abre el archivo para editarlo.
+- **ctrl + w** y luego **w** pasa de ventana en ventana entre las que está partida la pantalla.
+- **:close** para cerrar una ventana.
+- **c2w** borra las siguientes dos palabras y queda en modo insertar para que las puedas cambiar.
+- **R** entra en modo reemplazar, que sería como sobreescribir.
+- **d$** borra desde el cursor hasta el final de la línea.
+- **ctrl + f** va una pantalla hacia adelante
+- **ctrl + b** va una pantalla hacia atrás
+- **v** entra en modo visual, podés seleccionar líneas y caracteres moviento las teclas de dirección y después podés usar d para borrar, > para indentar, y para copiar, etc.
+- **\>>** indenta la línea
+- **<<** "des-indenta" la línea.
+- **%** va al paréntesis o corchete o llave que es pareja de la que está sobre el cursor.
+- **/expresión** busca expresión en el documento.
+
+## Recursos
+
+- Cheatsheets: [https://vim.rtorr.com/](https://vim.rtorr.com/), [Graphical VIM cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+- Videos: [VIM - CS50](https://www.youtube.com/watch?v=pksX5m8D1B4), [Lerning vim in a week](https://www.youtube.com/watch?v=_NUO4JEtkDw)
+- [Interactive VIM tutorial](http://www.openvim.com/tutorial.html).
+- [VIM tutorial](http://vim.wikia.com/wiki/Tutorial)
+- User Manual [https://www.vi-improved.org/vimusermanual.pdf](https://www.vi-improved.org/vimusermanual.pdf)
+- [VIM Adventures](https://vim-adventures.com/)
+- Configuration: ["A good vimrc"](https://dougblack.io/words/a-good-vimrc.html), [https://github.com/thenovices/dotfiles](https://github.com/thenovices/dotfiles), [https://github.com/InFog/meuvim](https://github.com/InFog/meuvim)
+- [VIM - Seven habits of efective text editing](http://www.moolenaar.net/habits.html)
