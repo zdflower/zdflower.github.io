@@ -6,19 +6,27 @@ date: 2017-10-13
 
 ## Uso básico de git y github desde la línea de comandos
 
+Inicializar un directorio como repositorio local de git:
+
     git init
+
+Para saber el estado del repositorio:
 
     git status
 
+Para ver el historial de commits:
+
     git log
+
+Para agregar los archivos que se han modificado y se quieren "commitear":
 
     git add files
 
+Hacer "commit" de las modificaciones:
+
     git commit -m "msg"
 
-Branches, sacar algo del stage, borrar un commit, crear un repositiorio, clonar un repositorio, subir los cambios a github, hacer un fork.
-
-Si vos tenés un repositorio local y querés conectarlo con un repositorio remoto (en github, por ejemplo), tenés que crear el repositorio remoto, copiar la dirección. Y después lo tenés que conectar con el local. Entonces, dentro del directorio de tu repositorio local:
+Dado un repositorio local, para conectarlo con un repositorio remoto (en github, por ejemplo), primero crear el repositorio remoto y copiar la dirección. Después se lo vincula con el local. Para eso, dentro del directorio del repositorio local:
 
     git remote add origin url
 
