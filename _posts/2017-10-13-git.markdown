@@ -40,6 +40,9 @@ Si después queremos trasladar los cambios realizados en una rama a la rama de t
 
     git merge otraRama
 
+Para clonar un repositorio remoto a una ubicación local:
+
+    git clone urlRepositorioRemoto
 
 #### Fuentes:
 
