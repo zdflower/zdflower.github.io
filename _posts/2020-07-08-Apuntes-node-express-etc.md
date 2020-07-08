@@ -24,3 +24,5 @@ El **~** indica que se instale la versión **patch** más actual.
     "somepackage" : ^1.2.0
 
 El **^** indica que se instale la versión **minor** más actual.
+
+Fuente: *Managing packages with npm - FreeCodeCamp [https://www.freecodecamp.org/learn/apis-and-microservices/managing-packages-with-npm/]*
