@@ -26,3 +26,39 @@ El **~** indica que se instale la versión **patch** más actual.
 El **^** indica que se instale la versión **minor** más actual.
 
 Fuente: *Managing packages with npm - FreeCodeCamp [https://www.freecodecamp.org/learn/apis-and-microservices/managing-packages-with-npm/]*
+
+
+## Protección contra ciertas vulnerabilidades - Uso de HelmetJS
+
+Contra "Cross-site scripting" (XSS):
+
+    helmet.xssFilter()
+
+Contra "[MIME][mime] sniffing" o husmeo de tipo de medio:
+
+    helmet.noSniff()
+
+MIME es un acrónimo para "Multipurpose Internet Mail Extensions".
+
+Contra la exposición en el header de la tecnología en uso:
+
+    helmet.hidePoweredBy()
+
+O mentir acerca de la tecnología usada:
+
+    helmet.hidePoweredBy({ setTo: 'PHP 4.2.0' })
+
+Contra "Clickjacking attacks":
+
+Por ejemplo:
+
+    helmet.frameguard({ action: 'sameorigin' })
+
+Contra DNS prefetching por parte del navegador:
+
+    helmet.dnsPrefetchControl()
+
+
+[mime]: https://en.wikipedia.org/wiki/Media_type
+
+[HelmetJS Docs](https://helmetjs.github.io/docs/)
