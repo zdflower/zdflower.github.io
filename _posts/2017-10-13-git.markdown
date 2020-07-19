@@ -56,6 +56,19 @@ Para clonar una rama específica de un remoto a una ubicación local:
 
     git clone --single-branch --branch nombreRama urlRepositorioRemoto
 
+Deshacer el último commit sin perder los cambios en los archivos:
+
+    git reset HEAD^ --soft
+    
+Para agregar algo que nos olvidamos al commit que recién hicimos:
+
+    git add archivo.ext
+    git commit --amend
+
+Si agregamos algo al stage pero todavía no hicimos commit y queremos volver atrás:
+
+    git restore --staged archivo.ext
+
 #### Fuentes:
 
 * [Git-it guide ](http://jlord.us/git-it/)
@@ -63,3 +76,4 @@ Para clonar una rama específica de un remoto a una ubicación local:
 * [Git cheat sheet github education](https://education.github.com/git-cheat-sheet-education.pdf)
 * [How not to f-up your local files with Git](https://medium.com/@francesco.agnoletto/how-to-not-f-up-your-local-files-with-git-part-1-e0756c88fd3c)
 * [How do I clone a specific Git branch? - Stack Overflow](https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch)
+* [Cómo eliminar el último commit de Git en el repositorio de origen](https://www.campusmvp.es/recursos/post/como-eliminar-el-ultimo-commit-de-git-en-el-repositorio-de-origen-p-ej-github.aspx)
