@@ -34,8 +34,6 @@ Estuve experimentando con el editor de textos [VIM](http://www.vim.org/).
 - **:q!** para salir sin guardar.
 - **:w** para guardar el archivo
 - **:help** para mostrar la ayuda
-- **"+p** sirve para pegar texto del portapapeles del sistema
-- **"+y-** copia texto al portapapeles del sistema
 - **:split** parte la pantalla en dos y muestra el mismo archivo arriba y abajo.
 - **:edit** archivo abre el archivo para editarlo.
 - **ctrl + w** y luego **w** pasa de ventana en ventana entre las que está partida la pantalla.
@@ -51,6 +49,19 @@ Estuve experimentando con el editor de textos [VIM](http://www.vim.org/).
 - **%** va al paréntesis o corchete o llave que es pareja de la que está sobre el cursor.
 - **/expresión** busca expresión en el documento.
 
+### Portapapeles
+Para usar el portapapeles del sistema y copiar y pegar entre vim y otras ventanas primero hay que asegurarse de que la versión que tengamos esté compilada con esa característica: 
+
+    vim --version | grep clipboard
+
+Si dice **+clipboard** y **+xterm_clipboard**, todo bien. Si no, hay que instalar una versión de vim que incluya esas características. Las opciones son: gvim, vim-gnome, o vim-gtk.
+
+Luego ya podemos usar los comandos:
+
+- **"+p** sirve para pegar texto del portapapeles del sistema
+- **"+y** copia texto al portapapeles del sistema
+
+
 ## Recursos
 
 - Cheatsheets: [https://vim.rtorr.com/](https://vim.rtorr.com/), [Graphical VIM cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
@@ -61,3 +72,5 @@ Estuve experimentando con el editor de textos [VIM](http://www.vim.org/).
 - [VIM Adventures](https://vim-adventures.com/)
 - Configuration: ["A good vimrc"](https://dougblack.io/words/a-good-vimrc.html), [https://github.com/thenovices/dotfiles](https://github.com/thenovices/dotfiles), [https://github.com/InFog/meuvim](https://github.com/InFog/meuvim)
 - [VIM - Seven habits of efective text editing](http://www.moolenaar.net/habits.html)
+- [Accessing the system clipboard](https://vim.fandom.com/wiki/Accessing_the_system_clipboard)
+- [How to make vim paste from and copy to system's clipboard](https://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard)
