@@ -70,7 +70,7 @@ Luego ya podemos usar los comandos:
 - [VIM tutorial](http://vim.wikia.com/wiki/Tutorial)
 - User Manual [https://www.vi-improved.org/vimusermanual.pdf](https://www.vi-improved.org/vimusermanual.pdf)
 - [VIM Adventures](https://vim-adventures.com/)
-- Configuration: ["A good vimrc"](https://dougblack.io/words/a-good-vimrc.html), [https://github.com/thenovices/dotfiles](https://github.com/thenovices/dotfiles), [https://github.com/InFog/meuvim](https://github.com/InFog/meuvim)
+- Configuration: <del>["A good vimrc"](https://dougblack.io/words/a-good-vimrc.html)</del>, [https://github.com/thenovices/dotfiles](https://github.com/thenovices/dotfiles), [https://github.com/InFog/meuvim](https://github.com/InFog/meuvim)
 - [VIM - Seven habits of efective text editing](http://www.moolenaar.net/habits.html)
 - [Accessing the system clipboard](https://vim.fandom.com/wiki/Accessing_the_system_clipboard)
 - [How to make vim paste from and copy to system's clipboard](https://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard)
